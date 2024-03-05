@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
-- Live Site URL: (https://your-live-site-url.com)
+- Solution URL: (https://github.com/PavvelD/results-summary-component-main)
+- Live Site URL: (https://pavveld.github.io/results-summary-component-main/)
 
 ## My process
 
@@ -46,5 +46,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@PavvelD](https://www.frontendmentor.io/profile/PavvelD)
