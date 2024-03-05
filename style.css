@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100svh;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.component{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 5px 3px 30px -5px rgba(66, 68, 90, 1);
+    border-radius: 1.7rem;
+    max-width: 45rem;
+}
+.result{
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    width: 50%;
+    border-radius: 1.7rem;
+    padding: 2rem 1.5rem 2.5rem;
+    
+}
+.result_h2{
+    font-size: 1.6rem;
+    color: hsl(241, 100%, 89%);
+    margin-bottom: 2.5rem;
+    font-weight: 500;
+}
+.circle_result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0)) ;
+    width: 12.5rem;
+    height: 12.5rem;
+    margin: 0 auto;
+}
+.result_h3{
+    font-size: 2.2rem;
+    color: hsl(221, 100%, 96%);
+    margin-top: 2.6rem;
+    font-weight: 500;
+}
+.p_text{
+    font-size: 1.1rem;
+    padding: 1.4rem 1.7rem 0;
+    color: hsl(241, 100%, 89%);
+    letter-spacing: 0.03rem;
+}
+.circle_h1{
+    font-size: 4.5rem;
+    color: hsl(221, 100%, 96%);
+    font-weight: 900; 
+}
+.circle_p{
+    color: hsl(241, 100%, 89%);
+    font-weight: 500;
+}
+.summary{
+    width: 50%;
+    padding: 0.5rem 1rem 0;
+}
+.summary_h2{
+    font-size: 1.6rem;
+    color: hsl(224, 30%, 27%);
+    margin-top: 1.5rem;
+    font-weight: 900;
+    padding-left: 1.1rem;
+}
+.summary_table{
+    margin-top: 2rem;
+}
+.table{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1.2rem 1.1rem;
+    flex-basis: 50%;
+    align-items: center;
+    border-radius: 0.7rem;
+}
+.table_name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 800;
+    padding: 0.2rem 0;
+}
+.score{
+    display: flex;
+    flex-direction: row;
+    margin-right: 1rem;
+    
+}
+.score_result{
+    margin-right: 0.5rem;
+    color: hsl(224, 30%, 27%);
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.score_scale{
+    color: hsl(166, 100%, 37%);
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.table_1{
+    background-color: hsla(0, 100%, 67%, 0.05);
+    color: hsl(0, 100%, 67%);
+}
+.table_2{
+    background-color: hsla(39, 100%, 56%, 0.05);
+    color: hsl(39, 100%, 56%);
+}
+.table_3{
+    background-color: hsla(166, 100%, 37%, 0.05);
+    color: hsl(166, 100%, 37%);
+}
+.table_4{
+    background-color: hsla(234, 85%, 45%, 0.05);
+    color: hsl(234, 85%, 45%);
+}
+.summary_btn{
+    display: block;
+    width: 85%;
+    margin: 2.7rem auto;
+    padding: 0.8rem 4rem;
+    border-radius: 1.7rem;
+    font-size: 1.1rem;
+    line-height: 1.9rem;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    font-family: "Hanken Grotesk", sans-serif;
+    border: none;
+}
+.summary_btn:hover{
+    background: linear-gradient(hsla(241, 72%, 46%, 0.8),hsla(256, 72%, 46%, 1));
+    cursor: pointer;
+}
+.icon{
+    max-width: 45%;
+    height: auto;
+    display: block;
+    padding: 0.8rem 0.8rem 0.2rem;
+    margin-bottom: 0.6rem;
+}
+footer{
+    margin-top: 1.5rem;
+}
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+@media (max-width:376px){
+    *{
+        font-size: 11px;
+    }
+body{
+    min-height: 0;
+}
+.component{
+    flex-direction: column;
+    box-shadow: none;
+}
+.result{
+    width: 100%; 
+    border-radius: 0 0 2.5rem 2.5rem;
+}
+.result_h2{
+    margin-top: 1.3rem;
+}
+.p_text{
+    padding: 0 5.2rem;
+}
+.summary{
+    width: 100%;
+}
+}
+@media (min-width:377px) and (max-width:699px){
+    *{
+        font-size: 13px;
+    }
+    .component{
+        flex-direction: column;
+        box-shadow: none;
+    }
+    .result{
+        width: 100%;
+        border-radius: 0 0 2.5rem 2.5rem;
+    }
+    .summary{
+        width: 100%;
+    }
+    body{
+        justify-content: flex-start;
+    }
+}
